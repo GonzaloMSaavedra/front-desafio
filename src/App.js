@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Santiago from './component/Santiago';
+import Zurich from './component/Zurich';
+import Auckland from './component/Auckland';
+import Sydney from './component/Sydney';
+import Londres from './component/Londres';
+import Georgia from './component/Georgia';
+
+
+
 
 function App() {
   return (
     <div className="App">
+      <div className="logoContainer">
+        <img src="https://ripleylabs.com/images/unicorn/logo_footer.svg" className="App-logo" alt="logo" />
+      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Desafío Ripley
       </header>
+      <div className="principal">
+        <div className="row">
+          <Santiago></Santiago>
+          <Zurich></Zurich>
+          <Auckland></Auckland>
+          <Sydney></Sydney>
+          <Londres></Londres>
+          <Georgia></Georgia>
+
+          
+        </div>
+        
+      </div>
     </div>
   );
 }

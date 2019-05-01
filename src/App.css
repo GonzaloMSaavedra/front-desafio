@@ -3,31 +3,43 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  animation: none;
+  height: 85px;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #79256a;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px);
   color: white;
+  padding-bottom: 3px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logoContainer{
+  padding:10px;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+  padding-top: 30px;
+}
+
+.imgCiudad{
+  height: 155px;
+  overflow: hidden;
+}
+
+
+
