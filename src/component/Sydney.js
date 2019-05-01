@@ -41,7 +41,7 @@ class Sydney extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="https://lonelyplanetimages.imgix.net/mastheads/65830387.jpg?sharp=10&vib=20&w=2000" class="card-img-top" alt="..."/>

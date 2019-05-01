@@ -43,7 +43,7 @@ class Londres extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="//www.101viajes.com/sites/default/files/styles/guia-full/public/puente-tower-londres-tour.jpg?itok=3jel1tl4&timestamp=1520944889" class="card-img-top" alt="..."/>

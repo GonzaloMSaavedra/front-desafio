@@ -43,7 +43,7 @@ class Georgia extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Savannah_River_Augusta_Canal_Riverwatch_Pkwy_2.jpg/800px-Savannah_River_Augusta_Canal_Riverwatch_Pkwy_2.jpg" class="card-img-top" alt="..."/>

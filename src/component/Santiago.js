@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment-timezone';
 
-
-
-
 class Santiago extends Component{
 
 
@@ -11,6 +8,7 @@ class Santiago extends Component{
         super(props)
         this.state = { data: [] }
         this.loadData();
+
       }
     
         loadData() {
@@ -27,13 +25,9 @@ class Santiago extends Component{
             })
           .catch(err => console.error(this.props.url, err.toString())) 
         }
-      
-        componentWillMount() {
-         
-        }
 
     render(){
-
+      
         //HORA
         let horaFinal = moment.tz(this.state.hora * 1000, this.state.timezone).format("DD-MM-YYYY HH:mm:ss");
 
@@ -43,7 +37,7 @@ class Santiago extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=410&name=santiago.jpg 410w, https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=820&name=santiago.jpg 820w, https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=1230&name=santiago.jpg 1230w, https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=1640&name=santiago.jpg 1640w, https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=2050&name=santiago.jpg 2050w, https://www.propital.com/hs-fs/hubfs/santiago.jpg?width=2460&name=santiago.jpg 2460w" class="card-img-top" alt="..."/>

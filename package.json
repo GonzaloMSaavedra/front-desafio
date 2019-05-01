@@ -8,7 +8,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "react-websocket": "^2.0.1",
+    "socket.io": "^2.2.0",
     "unix-time": "^1.0.1"
   },
   "scripts": {

@@ -41,7 +41,7 @@ class Zurich extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/05/16/Recortada/img_azarzoso_20180516-121243_imagenes_lv_terceros_istock-615269458-kY7B-U443617393009iwC-992x558@LaVanguardia-Web.jpg" class="card-img-top" alt="..."/>

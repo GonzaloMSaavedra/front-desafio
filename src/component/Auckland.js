@@ -41,7 +41,7 @@ class Auckland extends Component{
          temFinal = temFinal.toFixed(2); 
 
         return(
-        <div className="col-sm-6 col-sm-4 col-md-4 col-lg-2">
+        <div className="col-sm-6 col-sm-6 col-md-4 col-lg-2">
             <div className="card" >
                 <div className="imgCiudad">
                     <img src="https://www.newstalkzb.co.nz/media/19762837/auckland-city-cbd-waterfront-richard-robinson.jpg?mode=crop&width=675&height=379&quality=80&scale=both" class="card-img-top" alt="..."/>
